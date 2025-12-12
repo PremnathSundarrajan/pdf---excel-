@@ -111,7 +111,7 @@ export default function PDFConverter() {
         <div className="converter-card">
             <div className="card-header">
                 <div className="icon-wrapper">
-                    <FileText className="w-8 h-8 text-indigo-600" />
+                    <FileText className="w-8 h-8 text-primary" style={{ color: "var(--primary)" }} />
                 </div>
                 <h2 className="card-title">PDF to Excel Converter</h2>
                 <p className="card-subtitle">Convert your PDF tables into editable Excel spreadsheets quickly and accurately.</p>

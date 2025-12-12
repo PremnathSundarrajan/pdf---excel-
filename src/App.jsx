@@ -9,10 +9,10 @@ function App() {
 
       <header className="page-header">
         <nav className="navbar">
-          <div className="logo">Excel-ify</div>
+          <div className="logo">Aurelion</div>
         </nav>
         <div className="hero-content">
-          <h1>Aurelion <span className="gradient-text">PDF to Excel</span> Converter</h1>
+          <h1>The Ultimate <span className="gradient-text">PDF to Excel</span> Converter</h1>
           <p className="header-tagline">Stop re-typing data. Start converting it instantly with our professional-grade tool.</p>
         </div>
       </header>
@@ -22,7 +22,7 @@ function App() {
       </main>
 
       <footer className="page-footer">
-        <p>© 2025 Excel-ify. Built with React & Love.</p>
+        <p>© 2025 Excel-ify. Built by Aurelion</p>
       </footer>
     </div>
   )
