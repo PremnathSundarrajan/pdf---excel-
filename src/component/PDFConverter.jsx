@@ -32,6 +32,7 @@ export default function PDFConverter() {
 
             // Use environment variable or fallback to localhost
             const backendURL = import.meta.env.VITE_BACKEND_URL || "http://localhost:3000";
+            console.log("Using Backend URL:", backendURL);
 
             const response = await fetch(`${backendURL}/convert`, {
                 method: "POST",
